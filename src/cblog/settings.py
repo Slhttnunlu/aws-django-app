@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'cblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'aws-capstone-blog-django',
-        'NAME': 'dbname', # database name in RDS is written here
+        'NAME': 'clarusway', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
-        'HOST': 'slhttn-rds-entpoint',  # database endpoint is written here
+        'HOST': 'capstone2-slhttn.chzf7ykadc4i.us-east-1.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
 }
